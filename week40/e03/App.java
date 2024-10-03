@@ -4,7 +4,7 @@ public class App {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);  // Create a scanner object
         System.out.print("Enter a name: ");
-        String name = scanner.nextLine();  // Read user input as an integer
+        String name = scanner.nextLine(); 
         scanner.close();    // Close scanner
 
         System.out.println("You entered: " + name);
